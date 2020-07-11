@@ -64,6 +64,56 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-vuecli3-babel-转换" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/11/vuecli3-babel-%E8%BD%AC%E6%8D%A2/" class="article-date">
+  <time datetime="2020-07-11T11:32:35.000Z" itemprop="datePublished">2020-07-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/11/vuecli3-babel-%E8%BD%AC%E6%8D%A2/">vuecli3  babel 转换</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="项目依赖"><a href="#项目依赖" class="headerlink" title="项目依赖"></a>项目依赖</h1><p>npm install –save core-js regenerator-runtime</p>
+<h1 id="main-js"><a href="#main-js" class="headerlink" title="main.js"></a>main.js</h1><p>import ‘core-js/stable’</p>
+<p>import ‘regenerator-runtime/runtime’</p>
+<h1 id="babel-cofig-js"><a href="#babel-cofig-js" class="headerlink" title="babel.cofig.js"></a>babel.cofig.js</h1><pre name="code">
+module.exports = {
+  presets: [
+    ['@vue/app', {
+      useBuiltIns: 'entry'
+    }]
+  ]
+}
+</pre>
+
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/07/11/vuecli3-babel-%E8%BD%AC%E6%8D%A2/" data-id="ckchktbtj000188vv22w26kh1" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-querySelector和getElementBy的区别" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/07/05/querySelector%E5%92%8CgetElementBy%E7%9A%84%E5%8C%BA%E5%88%AB/" class="article-date">
@@ -103,7 +153,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/05/querySelector%E5%92%8CgetElementBy%E7%9A%84%E5%8C%BA%E5%88%AB/" data-id="ckc94l4fu0001hovvc1423vh6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/05/querySelector%E5%92%8CgetElementBy%E7%9A%84%E5%8C%BA%E5%88%AB/" data-id="ckchktbtd000088vvbqe9b92q" class="article-share-link">Share</a>
       
       
     </footer>
@@ -152,7 +202,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/07/05/hello-world/" data-id="ckc94l4fo0000hovv8pvobk0d" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/07/05/hello-world/" data-id="ckchktbuf000288vvd0ttfklx" class="article-share-link">Share</a>
       
       
     </footer>
@@ -191,6 +241,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/07/11/vuecli3-babel-%E8%BD%AC%E6%8D%A2/">vuecli3  babel 转换</a>
+          </li>
         
           <li>
             <a href="/2020/07/05/querySelector%E5%92%8CgetElementBy%E7%9A%84%E5%8C%BA%E5%88%AB/">querySelector和getElementBy的区别</a>
